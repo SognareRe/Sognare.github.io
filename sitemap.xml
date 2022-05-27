@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://sognarere.github.io/2022/05/27/GIT-LEARN/</loc>
+    
+    <lastmod>2022-05-27</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://sognarere.github.io/2022/05/15/CUDA-2/</loc>
     
     <lastmod>2022-05-15</lastmod>
@@ -32,24 +39,31 @@
 
   <url>
     <loc>https://sognarere.github.io/</loc>
-    <lastmod>2022-05-15</lastmod>
+    <lastmod>2022-05-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
+  <url>
+    <loc>https://sognarere.github.io/tags/git%E7%9B%B8%E5%85%B3/</loc>
+    <lastmod>2022-05-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
     <loc>https://sognarere.github.io/categories/CUDA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2022-05-15</lastmod>
+    <lastmod>2022-05-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sognarere.github.io/categories/TensorRT%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2022-05-15</lastmod>
+    <lastmod>2022-05-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

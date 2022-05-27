@@ -6,7 +6,7 @@
   <link href="https://sognarere.github.io/atom.xml" rel="self"/>
   
   <link href="https://sognarere.github.io/"/>
-  <updated>2022-05-15T10:04:40.777Z</updated>
+  <updated>2022-05-27T23:21:51.133Z</updated>
   <id>https://sognarere.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git基础知识</title>
+    <link href="https://sognarere.github.io/2022/05/27/GIT-LEARN/"/>
+    <id>https://sognarere.github.io/2022/05/27/GIT-LEARN/</id>
+    <published>2022-05-27T13:03:39.000Z</published>
+    <updated>2022-05-27T23:21:51.133Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="胡言乱语"><a href="#胡言乱语" class="headerlink" title="胡言乱语"></a>胡言乱语</h1><p>每次用git都要现查各个指令，用的晕晕乎乎的，到现在连git是什么也不知道，索性就自己写一个Blog，记录一下git的学习历程吧，这样就可以查自己的blog了(。</p><h1 id="什么是git？"><a href="#什么是git？" class="headerlink" title="什么是git？"></a>什么是git？</h1><p>Git 是一个开源的 <strong>分布式</strong> <strong>版本控制</strong> 系统，用于敏捷高效地处理任何或小或大的项目。</p><h2 id="版本控制"><a href="#版本控制" class="headerlink" title="版本控制"></a>版本控制</h2><p>项目开发过程中，增增减减会产生多个不同的版本，项目较小且版本较少时我们可以简单地通过备份多个版本的方法完成版本控制，但当项目规模增大，版本数量开始膨胀时，采用原始地备份方法显然已经难以满足需求，此时就轮到git出场了，利用git可以轻松地回溯版本，完成不同版本的合并。</p><h2 id="分布式"><a href="#分布式" class="headerlink" title="分布式"></a>分布式</h2><ul><li>中心式：所有项目代码存在一个服务器上，所有人都在这个服务器上开发。</li><li>分布式：每个人都可以在本地获得一个项目及其历史的镜像，在本地完成开发，然后在服务器汇总。</li><li>中心式一旦服务其宕机就无法进行开发，分布式则规避了这一情况。</li><li>由于可以有多个远程库，分布式开发协作起来更加方便，各个团队可在不同分支开发，最后汇总。</li></ul><h1 id="git的结构"><a href="#git的结构" class="headerlink" title="git的结构"></a>git的结构</h1><img src="/2022/05/27/GIT-LEARN/05/27/GIT-LEARN/gitstrut.png" class><h2 id="三种状态"><a href="#三种状态" class="headerlink" title="三种状态"></a>三种状态</h2><ul><li>Modified: 文件做了修改，但尚未提交至本地的数据库</li><li>Staged: 修改后的文件已被标记，将在下一次commit时提交至本地数据库</li><li>Committed: 文件已被安全提交至本地数据库<h2 id="三个概念"><a href="#三个概念" class="headerlink" title="三个概念"></a>三个概念</h2></li><li>Working Directory/Tree: 简单地说就是你用IDE看到的这个版本，即目前正在开发的版本</li><li>Staging Area (Index): 是一个文件，记录staged的信息</li><li>.git Directory (Repository): .git文件夹，存储项目信息。</li></ul><h1 id="git的工作流程"><a href="#git的工作流程" class="headerlink" title="git的工作流程"></a>git的工作流程</h1><ul><li>在 Working Tree 上修改文件</li><li>选择想要commit的标记为staged，记录在Index中</li><li>提交Staging Area中的文件，该分支的最新快照将记录在本地Repository中</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;胡言乱语&quot;&gt;&lt;a href=&quot;#胡言乱语&quot; class=&quot;headerlink&quot; title=&quot;胡言乱语&quot;&gt;&lt;/a&gt;胡言乱语&lt;/h1&gt;&lt;p&gt;每次用git都要现查各个指令，用的晕晕乎乎的，到现在连git是什么也不知道，索性就自己写一个Blog，记录一下git的学习历</summary>
+      
+    
+    
+    
+    
+    <category term="git相关" scheme="https://sognarere.github.io/tags/git%E7%9B%B8%E5%85%B3/"/>
+    
+  </entry>
   
   <entry>
     <title>CUDA学习记录(二)：矩阵乘的初步实现</title>
